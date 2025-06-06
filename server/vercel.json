@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "installCommand": "npm install --production",
-  "buildCommand": "echo 'Skipping build for serverless deployment'",
   "builds": [
     {
       "src": "server/index.ts",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["server/**", "shared/**"],
-        "excludeFiles": ["client/**", "dist/**"]
-      }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
