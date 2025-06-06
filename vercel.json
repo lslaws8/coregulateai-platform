@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "_updated": "2025-06-06",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "builds": [
