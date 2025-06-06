@@ -1,0 +1,6 @@
+client/
+dist/
+vite.config.ts
+tsconfig.json
+tailwind.config.ts
+postcss.config.js
