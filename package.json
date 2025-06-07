@@ -2,9 +2,6 @@
   "name": "coregulateai-platform",
   "version": "1.0.0",
   "license": "MIT",
-  "scripts": {
-    "build": "echo 'Serverless deployment ready'"
-  },
   "dependencies": {
     "express": "^4.21.2"
   }
