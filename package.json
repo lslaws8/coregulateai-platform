@@ -1,11 +1,7 @@
 {
-  "name": "coregulateai-platform",
-  "version": "1.0.0",
-  "license": "MIT",
-  "scripts": {
-    "build": "mkdir -p dist && cp api/index.js dist/index.js"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
+  "functions": {
+    "api/index.js": {
+      "runtime": "@vercel/node@20.x"
+    }
   }
 }
