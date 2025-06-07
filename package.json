@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "echo 'Build complete'"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
+    "build": "echo 'Static site ready'"
   }
 }
