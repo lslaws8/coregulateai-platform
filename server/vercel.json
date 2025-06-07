@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "buildCommand": "echo 'Serverless deployment ready'",
   "builds": [
     {
       "src": "server/index.ts",
