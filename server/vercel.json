@@ -1,16 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "echo 'Serverless deployment ready'",
-  "builds": [
-    {
-      "src": "server/index.ts",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/server/index.ts"
+      "dest": "/api/index.js"
     }
   ]
 }
