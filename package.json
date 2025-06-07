@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "echo 'Serverless deployment ready'"
+    "build": "mkdir -p dist && cp api/index.js dist/index.js"
   },
   "dependencies": {
     "express": "^4.21.2"
