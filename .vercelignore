@@ -1,6 +1,15 @@
 client/
-dist/
 vite.config.ts
 tsconfig.json
 tailwind.config.ts
 postcss.config.js
+node_modules/
+.git/
+attached_assets/
+backups/
+migrations/
+public/
+*.log
+.env
+.env.local
+.env.example
