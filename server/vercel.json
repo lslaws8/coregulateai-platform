@@ -1,14 +1,17 @@
 {
   "version": 2,
+  "buildCommand": "mkdir -p dist && cp api/index.js dist/index.js",
   "outputDirectory": "dist",
+  "builds": [
+    {
+      "src": "dist/index.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/index.js"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/api/index.js"
+      "dest": "/dist/index.js"
     }
   ]
 }
