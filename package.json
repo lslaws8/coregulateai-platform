@@ -1,19 +1,11 @@
 {
   "name": "coregulateai-platform",
   "version": "1.0.0",
-  "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "echo 'Serverless deployment ready'",
-    "start": "node server/index.js"
+    "build": "echo 'Serverless deployment ready'"
   },
   "dependencies": {
-    "express": "^4.21.2",
-    "dotenv": "^16.4.7",
-    "typescript": "^5.7.2"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.0",
-    "@types/node": "^22.10.1"
+    "express": "^4.21.2"
   }
 }
